@@ -15,7 +15,7 @@ class AppTest {
         List<Integer> expected = new ArrayList<>(Arrays.asList(1, 2, 3));
 
         List<Integer> actual = App.take(input, 3);
-       assertThat(actual).isEqualTo(expected);
+        assertThat(actual).isEqualTo(expected);
        // END
     }
     @Test
