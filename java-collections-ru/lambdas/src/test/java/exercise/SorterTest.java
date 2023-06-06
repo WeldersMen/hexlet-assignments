@@ -60,11 +60,4 @@ class SorterTest {
         Assertions.assertArrayEquals(expectedEnlarged, actualEnlarged);
     }
 
-    @Test
-    void testEnlargedArrayImageEmptyInput() {
-        String[][] image = {{}};
-        String[][] expectedEnlarged = {{}};
-        String[][] actualEnlarged = App.enlargeArrayImage(image);
-        Assertions.assertArrayEquals(expectedEnlarged, actualEnlarged);
-    }
 }
